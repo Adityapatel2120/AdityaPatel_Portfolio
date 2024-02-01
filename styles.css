@@ -22,6 +22,10 @@ hr{
 }
 
 /** links **/
+.links{
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+}
 .pri-link{
     background-color: var(--pri-color);
     text-decoration: none;
@@ -35,6 +39,8 @@ hr{
     border: 1px solid var(--pri-color);
 }
 
+/**lists**/
+
 .list-non-bullet{
     list-style: none;
 }
@@ -42,4 +48,24 @@ hr{
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+/** navigation**/
+.navigation{
+    background-color: var(--pri-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .nav-pills{
+    text-align: center;
+}
+.navigation .links{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
 }
