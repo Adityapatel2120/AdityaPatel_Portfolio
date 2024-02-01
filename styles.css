@@ -4,6 +4,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+    --pri-color:yellow;
+}
+/** Container **/
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -12,4 +17,9 @@ body{
 .container-center{
     max-width: 700px;
     margin: auto;
+}
+
+/** links **/
+.pri-link{
+    color: var{--pri-color};
 }
