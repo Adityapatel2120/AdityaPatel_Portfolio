@@ -8,7 +8,9 @@ body{
     --pri-color:blue;
 }
 /** Container **/
-
+hr{
+    margin: 1.5rem 0rem;
+}
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
