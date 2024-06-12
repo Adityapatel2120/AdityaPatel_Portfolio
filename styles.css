@@ -61,11 +61,8 @@ hr{
     font-weight: bold;
 }
 .navigation .nav-pills{
-    text-align: center;
+    text-align: right;
 }
 .navigation .links{
     color: white;
-}
-.navigation .link-active{
-    font-weight: bold;
 }
