@@ -8,6 +8,8 @@ body {
     --pri-color: blue;
     --dark-grey: #6B7280;
     --off-white:#F3F4F6;
+    --main-color:#84cc16;
+
 }
 
 /** Container **/
@@ -23,6 +25,7 @@ hr {
 .container-center {
     max-width: 700px;
     margin: auto;
+    text-align: center;
 }
 
 /** links **/
@@ -30,18 +33,22 @@ hr {
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
-
+.navigation .link-active{
+    text-decoration: underline;
+    font-weight: bold;
+}
 .pri-link {
-    background-color: var(--pri-color);
+    background-color: var(--main-color);
     text-decoration: none;
     border-radius: 0.5rem;
     color: white;
+    padding: 0.4rem 0.4rem;
 }
 
 .sec-link {
     text-decoration: none;
     border-radius: 0.5rem;
-    border: 1px solid var(--pri-color);
+    border: 1px solid var(--main-color);
 }
 
 /**lists**/
@@ -53,11 +60,12 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    font-weight: normal;
 }
 
 /** navigation**/
 .navigation {
-    background-color: var(--pri-color);
+    background-color: var(--main-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -65,10 +73,11 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 30px;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: center;
 }
 
 .navigation .links {
@@ -87,12 +96,14 @@ hr {
 }
 
 .hero .hero-heading {
-    color: var(--dark-grey);
+    color: black;
     padding-top: 1rem;
+    text-align: center;
 }
 
 .hero .heading-inverted {
-    color: var(--pri-color);
+    color: var(--main-color);
+    font-style: italic;
 }
 
 /** sections**/
@@ -104,12 +115,13 @@ hr {
 }
 .ow{
     background-color: var(--off-white);
+    text-align: center;
 }
 
 /** Footers**/
 .footer{
-    background-color: var(--pri-color);
-    padding: 2rem 1rem;
+    background-color: var(--main-color);
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -119,4 +131,14 @@ hr {
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+
+
+.strong{
+    font-weight: bold;
+}
+
+.ima{
+    max-width: 30px;
+    margin-inline: ;
 }
