@@ -26,6 +26,7 @@ hr {
     max-width: 700px;
     margin: auto;
     text-align: center;
+    font-family: sans-serif;
 }
 
 /** links **/
@@ -145,8 +146,48 @@ hr {
 .images{
     padding: 1rem;
     height: 55px;
-    width: 55px;
-    
-    
-    
+    width: 55px; 
+}
+
+.box{
+    display: block;
+    border: solid black 2px;
+    max-width: 450px;
+    min-height: 65vh;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: auto;
+    background-color: var(--off-white);
+}
+
+.box form{
+    width: 100%;
+}
+.Contact-form{
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+.Contact-form input{
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    font-weight: 500;
+    width: calc(100% - 4rem);
+    width: 100%;    
+}
+
+.Contact-form placeholder{
+    background-color: white;
+}
+
+.button{
+    display:block;
+    margin-inline: auto;
+    padding: 0;
+    width: 85px;
+    height: 25px;
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    text-align: center;
 }
